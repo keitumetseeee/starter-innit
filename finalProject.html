@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>y2k style</title>
+    <style>
+      body {
+        background-color: #4e423e;
+      }
+      h1 {
+        color: #31050a;
+        text-align: center;
+        font-family: "Dancing_Script variant0", Tofu;
+        font-size: 60px;
+      }
+      h2 {
+        text-align: center;
+        color: white;
+        font-family: cursive;
+      }
+      p {
+        color: antiquewhite;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1.5;
+        margin: 20px 0 10px;
+      }
+      a {
+        color: rgb(78, 16, 85);
+      }
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+      .image-container img {
+        width: 200px;
+        height: auto;
+      }
+      .see-more {
+        display: block;
+        margin-top: 10px;
+        text-decoration: none;
+        color: #31050a;
+      }
+      .see-more:hover {
+        text-decoration: underline;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        background: #785b26;
+        color: white;
+        font-size: 24px;
+        padding: 10px;
+        border: none;
+        border-radius: 7px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+      .link {
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+      }
+      .link:hover {
+        text-decoration: underline;
+      }
+      .text {
+        text-align: center;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>StreetWear y2k</h1>
+    <h2>
+      Experience the nostalgia and playfulness of y2k fashion,reimagined for the
+      modern era...that's Y2K for you!!
+    </h2>
+    <div class="image-container">
+      <img
+        src="https://i.pinimg.com/236x/05/5c/08/055c08f314c5408019b1a70b6cabce60.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/236x/3d/0b/b3/3d0bb3510c14567b85ee8eb055df4623.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/474x/35/52/72/3552727386951472451cea76ef91dafc.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/236x/09/78/8b/09788b27f9a7bcbe268a80b44c3bfd69.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/474x/e0/5f/2b/e05f2bab35fab8a3d8be6bdf80a77588.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/564x/c1/02/c7/c102c7ba78265b420609926dbf54f6fa.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/474x/20/08/20/200820e791ad3233531a296aaeaf6c0b.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/474x/1a/67/62/1a6762daa06c535b15a0312f09062c5f.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/474x/e3/48/d7/e348d78617ee647dc040478ae1146b50.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/236x/54/b4/d5/54b4d5d98f81f00388708cbde741d288.jpg"
+        alt="y2k"
+      />
+      <img
+        src="https://i.pinimg.com/236x/f4/82/2a/f4822a77b0ae33627b1f920293d4fd78.jpg"
+        alt="y2k"
+      />
+      <p>
+        The Y2K fashion is not just about nostalgia;its about embracing the
+        creativity and self-expression that defined era.Originating from the
+        late 90s and early 2000s,this style was all about optimism,embracing
+        technology,and standing out.
+        <a
+          href="https://za.pinterest.com/keitumetsedk/"
+          target="_blank"
+          class="see-more"
+          >See more on Pinterest</a
+        >
+      </p>
+      <button class="buy-clothes">Buy Y2K clothes!</button>
+    </div>
+    <p class="text">
+      This page was built by
+      <a
+        href="https://www.shecodesfoundation.org/candidates/keitumetse-dimakatso-kharaka-south-african-17af52b0-b44f-4f20-a9cb-6f9626683f3a"
+        target="_blank"
+        class="link"
+      >
+        Keitumetse Dimakatso Kharaka</a
+      >
+    </p>
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let contactDetails = prompt("Enter your preferal contact");
+
+        alert("Thank you " + name + " !! We will be in touch!💕");
+      }
+      let buyclothes = document.querySelector(".buy-clothes");
+      buyclothes.addEventListener("click", buy);
+    </script>
+  </body>
+</html>
